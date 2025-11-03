@@ -58,4 +58,4 @@ Wir arbeiten **gemeinsam, schnell und zielorientiert**, genau wie das deutsche W
 ## 🚀 So funktioniert es
 1. Repository klonen  
    ```bash
-   git clone https://github.com/yourusername/javascript-genius-quiz.git
+   git clone https://github.com/okayemre/Interactive-Trivia-Quiz-Team-Project
