@@ -1,6 +1,7 @@
 # Interactive-Trivia-Quiz-Team-Project
 
 Team
+
 1 - Ronak
 
 2 - Naima
