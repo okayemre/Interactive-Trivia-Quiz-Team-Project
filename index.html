@@ -8,6 +8,8 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <h1>JavaScript Genius Quiz</h1>
+
     <!-- Nima -->
     <div id="start_container" class="screen aktive"></div>
     <h1 class="quiz-title">Herzlich Willkommen zum Trivia Quiz</h1>
@@ -18,9 +20,36 @@
 </div>
 
 
-    <div class="start_container"></div>
+    <section id="quiz-screen" class="quiz_container">
+      <!-- Header -->
+      <header class="quiz-header">
+        <h2>JavaScript Genius Quiz</h2>
+        <p id="question-number">Frage 1 von 10</p>
+      </header>
+
+      <!-- Questions -->
+      <div class="question-area">
+        <h3 id="question-text">Frage hier einfügen</h3>
+      </div>
+
+      <!-- Answers -->
+      <ul id="answer-list" class="answer-list"></ul>
+
+      <!-- Feedback -->
+      <div
+        id="feedback"
+        class="feedback"
+        role="status"
+        aria-live="polite"
+      ></div>
+
+      <!-- Control Buttons -->
+      <footer class="quiz-footer">
+        <button id="next-btn" class="btn hidden">Nächste Frage ➜</button>
+      </footer>
+    </section>
 
     <!-- Ronak -->
-    <div class="start_container"></div>
+    <div class="ergebnis_container"></div>
   </body>
 </html>
