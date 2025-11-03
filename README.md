@@ -4,7 +4,7 @@ Team
 
 1 - Ronak
 
-2 - Naima
+2 - Naima.
 
 3- Nima
 
