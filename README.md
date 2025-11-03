@@ -3,7 +3,7 @@
 
 ---
 
-![alt text](image-1.png)
+<img src="Entwurf.jpg" alt="Projektvorschau" width="400">
 
 ---
 
