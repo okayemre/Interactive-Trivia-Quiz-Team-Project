@@ -1,7 +1,7 @@
 # Interactive-Trivia-Quiz-Team-Project
 
 Team
-- Ronak
+1- Ronak
 - Naima
 - Nima
 - Emre
