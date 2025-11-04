@@ -192,19 +192,19 @@ function showResults() {
   quizScreen.style.display = 'none';
   resultScreen.style.display = 'block';
 
-  resultText.textContent = `You scored ${score} out of ${quizQuestions.length}!`;
+  const total = quizQuestions.length;
+  const correct = score;
+  const wrong = total - correct;
 
-  const percentage = (score / quizQuestions.length) * 100;
-  if (percentage === 100) {
-    resultMessage.textContent = "🎉 Perfect! You're a JavaScript genius!";
-  } else if (percentage >= 80) {
-    resultMessage.textContent = "🌟 Excellent work! You really know your JavaScript!";
-  } else if (percentage >= 60) {
-    resultMessage.textContent = "👍 Good job! You have a solid understanding!";
-  } else if (percentage >= 40) {
-    resultMessage.textContent = "📚 Not bad! Keep learning and you'll improve!";
+  resultText.textContent = `✅ Correct: ${correct} | ❌ Wrong: ${wrong} (Total: ${total})`;
+
+  // Bestehensgrenze: mindestens 7 richtige Antworten
+  if (correct >= 7) {
+    resultMessage.textContent = "🎉 Glückwunsch! Du hast bestanden!";
+    resultMessage.style.color = "green";
   } else {
-    resultMessage.textContent = "💪 Keep practicing! You'll get better with time!";
+    resultMessage.textContent = "❌ Leider nicht bestanden. Versuche es nochmal!";
+    resultMessage.style.color = "red";
   }
 }
 
