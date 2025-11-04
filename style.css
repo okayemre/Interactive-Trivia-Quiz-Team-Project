@@ -8,7 +8,7 @@
 
 /*Hintergrund  */
 body {
-  background-image: url("foto2.jpg"); /* ← Pfad zu deinem Bild */
+  background-image: url("foto3.jpg"); /* ← Pfad zu deinem Bild */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
