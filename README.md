@@ -13,7 +13,7 @@ Starte das Quiz, beantworte Multiple-Choice-Fragen, überspringe schwierige Aufg
 
 ---
 
-<img src="src\img\bild.jpg" alt="Projektvorschau" width="400">
+<img src="scr/img/bild.jpg" alt="Projektvorschau" width="400">
 
 
 ---
